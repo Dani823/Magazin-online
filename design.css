@@ -1,0 +1,60 @@
+.pretvechi{
+font-size: 10px;
+text-shadow: 10px;
+
+}
+.pretnou{
+font-size: 25px;
+color: red;
+
+}
+.desp{
+  position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+     font-family: font-family: cursive;
+    font-size:40px;
+    color:#00004d;
+    text-shadow: 2px 2px 5px green;
+    animation: cssload-breathe 15s ease infinite;
+}
+@keyframes cssload-breathe {
+	0% {
+		letter-spacing: 0;
+		text-shadow: 0 0 1px white;
+	}
+	30% {
+		color: transparent;
+	}
+	50% {
+		letter-spacing: 97px;
+		font-size: 0;
+		text-shadow: 0 0 6px white;
+	}
+	60% {
+		color: transparent;
+	}
+	100% {
+		letter-spacing: 0;
+		text-shadow: 0 0 1px white;
+	}
+}
+.header{
+opacity: 0.6;
+}
+footer{
+background-color: black;
+color: #ffffe6;
+}
+footer {
+    background-color: black;
+    border-top: 1px solid #d8d8d8;
+    position: relative;
+    margin-top: -210px;
+    height: 210px;
+    clear: both;
+}
+.strong{
+  text-align: center;
+}
